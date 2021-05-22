@@ -1,0 +1,40 @@
+.h1 {
+  text-align: center;
+}
+.h2 {
+  text-align: center;
+}
+.main {
+  margin: 0;
+  width: 800px;
+  margin-left: 20px;
+  background-color: #f5f5f5;
+  padding: 30px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+.abbr {
+  border-bottom: 2px dotted black;
+}
+.span {
+  color: #ad272bc9;
+  background-color: #dfdede;
+}
+.tags {
+  background-color: rgb(226, 226, 226);
+  color: #56a8b1;
+}
+.main-code {
+  background-color: #dfdede;
+  padding: 1rem;
+}
+.code {
+  margin: 0;
+}
+.pre {
+  line-height: 0.7em;
+  margin: 0;
+}
+.dfn {
+  font-weight: 500;
+}
