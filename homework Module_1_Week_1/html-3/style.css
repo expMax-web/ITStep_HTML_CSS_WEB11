@@ -4,7 +4,7 @@
 .h2 {
   text-align: center;
 }
-.main {
+.main-container {
   margin: 0;
   width: 800px;
   margin-left: 20px;
@@ -21,7 +21,7 @@
   background-color: #dfdede;
 }
 .tags {
-  background-color: rgb(226, 226, 226);
+  background-color: rgba(226, 226, 226, 0.945);
   color: #56a8b1;
 }
 .main-code {
