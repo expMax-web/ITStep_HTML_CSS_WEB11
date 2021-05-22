@@ -1,4 +1,4 @@
-div {
+.main-container {
   width: 480px;
   height: 300px;
   margin-left: 20px;
@@ -6,21 +6,20 @@ div {
   padding: 30px 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
-span {
+.Player {
   font-size: 20px;
   margin-bottom: 100px;
   line-height: 65px;
 }
-.cardblack {
+.card {
   font-size: 40px;
   background-color: #cfcece;
   padding: 0px 10px;
   font-family: Leelawadee UI, sans-serif;
 }
-.cardred {
-  font-size: 40px;
-  background-color: #cfcece;
-  padding: 0px 10px;
+.red {
   color: rgb(136, 21, 21);
-  font-family: Leelawadee UI, sans-serif;
+}
+.black {
+  color: black;
 }
