@@ -1,0 +1,36 @@
+.main-container {
+  width: 800px;
+  margin-left: 20px;
+  background-color: #f5f5f5;
+  padding: 0px 10px;
+  font-family: Leelawadee UI, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #382e7a;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 900;
+}
+h2 {
+  color: #748496;
+  font-size: 18px;
+  font-weight: 900;
+}
+h3 {
+  color: #748496;
+  font-size: 18px;
+  font-weight: 900;
+}
+h4 {
+  color: #748496;
+  font-size: 16px;
+  font-weight: 900;
+}
+.line-text {
+  line-height: 20px;
+}
+.scene1 {
+  font-style: italic;
+  font-size: 14px;
+}
