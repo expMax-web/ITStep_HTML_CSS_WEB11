@@ -1,0 +1,18 @@
+.year {
+  list-style-type: none;
+}
+.year-moth::before {
+  content: ">";
+}
+.Winter-list {
+  list-style-image: url("./winter_16.png");
+}
+.Spring-list {
+  list-style-image: url("./spring_16.png");
+}
+.Summer-list {
+  list-style-image: url("./summer_16.png");
+}
+.Autumn-list {
+  list-style-image: url("./autumn_16.png");
+}
