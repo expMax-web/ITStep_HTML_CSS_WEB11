@@ -1,0 +1,27 @@
+.main-container {
+  background-color: #ed9eae;
+  width: 30rem;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+.fruits {
+  list-style-type: none;
+  counter-reset: myCounter;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: white;
+}
+.fruits-list {
+  background-color: #c66376;
+  margin: 1rem;
+  line-height: 2.7rem;
+}
+.fruits-span {
+  background-color: #9e354a;
+  padding: 0.5rem 1.5rem;
+}
+li::before {
+  counter-increment: myCounter;
+  content: counter(myCounter) ".";
+  margin: 0 1rem;
+}
