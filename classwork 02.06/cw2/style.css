@@ -1,0 +1,12 @@
+.latin {
+  list-style-type: upper-roman;
+  font-weight: bold;
+}
+.letters {
+  list-style-type: lower-alpha;
+}
+.text {
+  text-decoration: none;
+  color: rgb(97, 96, 158);
+  font-weight: normal;
+}
