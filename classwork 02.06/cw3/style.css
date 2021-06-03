@@ -1,3 +1,33 @@
 ul {
   list-style-type: none;
 }
+.term {
+  background-color: rgb(33, 75, 82);
+  color: white;
+  max-width: 1000px;
+  margin-left: 2.5rem;
+  line-height: 3rem;
+}
+.definition {
+  background-color: rgb(62, 122, 117);
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.span-term {
+  margin-left: 2.5rem;
+}
+.link {
+  color: rgb(141, 97, 97);
+}
+.main-container {
+  max-width: 1000px;
+}
+
+.paragraph {
+  margin: 0;
+}
+.paragraph2 {
+  margin: 1rem;
+  font-size: 0.8rem;
+  margin-left: 2.5rem;
+}
