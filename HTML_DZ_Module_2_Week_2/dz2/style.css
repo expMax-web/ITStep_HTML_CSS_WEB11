@@ -1,0 +1,39 @@
+.main-container {
+  width: 35rem;
+}
+.do-title {
+  margin-left: 2.5rem;
+}
+.do-list {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+li:nth-child(odd) {
+  background: #a5ccda;
+}
+.do {
+  background-color: #add8e6;
+  padding: 1rem;
+}
+.do::before {
+  content: url("./unchecked_16.png");
+  margin: 0 1rem 0 2rem;
+}
+li::after {
+  content: "✖";
+  color: brown;
+  font-size: 1.2rem;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+#done {
+  background-color: #e2e2e2;
+  padding: 1rem; /* Использовал id="done" потому что селектор li:nth-child(odd) приоритетнее, чем class*/
+}
+#done::before {
+  content: url("./checked_16.png");
+  margin: 0 1rem 0 2rem;
+}
+.done-span {
+  text-decoration: line-through;
+} /* Добавил, потому что крестик-спецсимвол зачеркивался, если добавить данный стиль в id="done"*/
