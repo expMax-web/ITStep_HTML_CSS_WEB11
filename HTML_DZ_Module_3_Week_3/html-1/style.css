@@ -1,0 +1,37 @@
+.title {
+  text-align: center;
+}
+.product-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  max-width: 1000px;
+}
+.product {
+  text-align: center;
+  width: 11rem;
+  height: 13rem;
+  border: 3px solid rgb(185, 184, 184);
+  border-radius: 2rem;
+  padding: 1.5rem 0 0 0;
+  margin: 1rem;
+}
+.product-li {
+  display: inline-block;
+}
+.product-image {
+  margin-bottom: 1rem;
+}
+.product-name {
+  font-weight: bold;
+}
+.footer-line {
+  max-width: 100%;
+  margin: 1rem;
+}
+.footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

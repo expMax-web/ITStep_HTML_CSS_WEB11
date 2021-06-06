@@ -1,0 +1,78 @@
+.footer {
+  max-width: 1600px;
+  background-color: #294e6d;
+  color: white;
+  height: 18rem;
+  padding-top: 3rem;
+}
+.about {
+  height: 7rem;
+  font-size: 1.3rem;
+  margin: 0rem;
+  margin-bottom: 3rem;
+}
+.ul-footer-navigation {
+  list-style-type: none;
+  width: 50rem;
+  height: 8rem;
+  display: block;
+  margin-left: 15rem;
+}
+.footer-navigation {
+  margin-top: 0.2rem;
+  display: block;
+  width: 49%;
+  float: left;
+  height: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.li-link {
+  text-decoration: none;
+  color: white;
+}
+.li-link:hover {
+  text-decoration: underline;
+}
+.social {
+  margin-top: 3rem;
+  float: right;
+  width: 30rem;
+  height: 6rem;
+  display: inline;
+}
+.social-div1 {
+  width: 5rem;
+  height: 5rem;
+  background-image: url(./fb_gray.png);
+  background-repeat: no-repeat;
+  float: left;
+}
+.social-div1:hover {
+  background-image: url(./fb.png);
+}
+.social-div2 {
+  width: 5rem;
+  height: 5rem;
+  background-image: url(./insta_gray.png);
+  background-repeat: no-repeat;
+  float: left;
+}
+.social-div2:hover {
+  background-image: url(./insta.png);
+}
+.social-div3 {
+  width: 5rem;
+  height: 5rem;
+  background-image: url(./youtube_gray.png);
+  background-repeat: no-repeat;
+  float: left;
+}
+.social-div3:hover {
+  background-image: url(./youtube.png);
+}
+.footer-line {
+  max-width: 90%;
+}
+.footer-text {
+  text-align: center;
+}

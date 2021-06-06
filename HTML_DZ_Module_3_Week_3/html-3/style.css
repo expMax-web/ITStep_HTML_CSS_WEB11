@@ -1,0 +1,104 @@
+.all-color-text {
+  color: rgb(255, 250, 250);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-color: #923158;
+  width: 60rem;
+  height: 3rem;
+  padding: 2rem 0 1rem 3rem;
+}
+.header-title {
+  font-size: 1.5rem;
+  margin: 0rem;
+}
+.menu {
+  background-color: #6e1237;
+  width: 60rem;
+  height: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 0 1rem 3rem;
+}
+.menu-title {
+  font-size: 1.2rem;
+  margin: 0rem;
+}
+.main-container {
+  width: 63rem;
+  height: 17rem;
+  margin-top: 1rem;
+}
+.aside-group-left {
+  float: left;
+  width: 12rem;
+  margin-top: 0rem;
+}
+.aside1-title {
+  margin: 0rem;
+}
+.aside1 {
+  background-color: #b65b80;
+  width: 12rem;
+  height: 3rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.aside2 {
+  background-color: #b65b80;
+  width: 12rem;
+  height: 7rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+.aside3-title {
+  margin: 0rem;
+  word-break: break-all;
+  padding: 2rem 3rem 0rem 3rem;
+}
+.aside3 {
+  background-color: #b65b80;
+  width: 7rem;
+  height: 14rem;
+  float: right;
+  margin: 0;
+}
+.main-content {
+  background-color: #b65b80;
+  max-height: 15rem;
+  width: 33rem;
+  padding: 2rem 3rem;
+  margin-left: 16rem;
+}
+.main-content-title {
+  margin: 0rem;
+}
+.section1 {
+  background-color: #db92af;
+  height: 4rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 3rem;
+}
+.section1-title {
+  margin: 0rem;
+}
+.section2 {
+  background-color: #db92af;
+  height: 4rem;
+  margin-top: 1rem;
+  padding: 0.5rem 3rem;
+}
+.section2-title {
+  margin: 0rem;
+}
+.footer-title {
+  font-size: 1.2rem;
+  margin: 0rem;
+}
+.footer {
+  background-color: #6e1237;
+  width: 63rem;
+  height: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 0 1rem 3rem;
+}

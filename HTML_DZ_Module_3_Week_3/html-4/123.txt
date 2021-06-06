@@ -1,0 +1,19 @@
+<div class="social">
+        <ul class="ul-social">
+          <li class="li-social">
+            <a href="#" class="social-image-link">
+              <img src="./fb_gray.png" alt="" class="social-image" />
+            </a>
+          </li>
+          <li class="li-social">
+            <a href="#" class="social-image-link"
+              ><img src="./insta_gray.png" alt="" class="social-image" />
+            </a>
+          </li>
+          <li class="li-social">
+            <a href="#" class="social-image-link">
+              <img src="./youtube_gray.png" alt="" class="social-image" />
+            </a>
+          </li>
+        </ul>
+      </div>
