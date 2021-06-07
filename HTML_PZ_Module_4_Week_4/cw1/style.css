@@ -1,0 +1,21 @@
+.border-div {
+  width: 20rem;
+  height: 5rem;
+  border: 0.2rem solid orange;
+  margin: 10rem auto;
+}
+@keyframes progress {
+  from {
+    left: 0;
+  }
+  to {
+    left: 256px;
+  }
+}
+.progress-div {
+  width: 20%;
+  height: 102%;
+  background-color: orange;
+  position: relative;
+  animation: progress 5s linear infinite;
+}

@@ -2,15 +2,16 @@ ul {
   list-style-type: none;
 }
 .term {
-  background-color: rgb(33, 75, 82);
+  background-color: #0e494e;
   color: white;
   max-width: 1000px;
   margin-left: 2.5rem;
   line-height: 3rem;
+  padding: 0rem 2rem;
 }
 .definition {
-  background-color: rgb(62, 122, 117);
-  padding: 0.5rem 1rem;
+  background-color: #236167;
+  padding: 0.5rem 2rem;
   color: white;
 }
 .span-term {
