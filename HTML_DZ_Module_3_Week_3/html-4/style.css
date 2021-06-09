@@ -16,12 +16,12 @@
   width: 50rem;
   height: 8rem;
   display: block;
-  margin-left: 15rem;
+  margin-left: 8rem;
 }
 .footer-navigation {
   margin-top: 0.2rem;
   display: block;
-  width: 49%;
+  width: 10rem;
   float: left;
   height: 1.4rem;
   margin-bottom: 0.5rem;
@@ -35,10 +35,9 @@
 }
 .social {
   margin-top: 3rem;
-  float: right;
   width: 30rem;
   height: 6rem;
-  display: inline;
+  float: right;
 }
 .social-div1 {
   width: 5rem;
