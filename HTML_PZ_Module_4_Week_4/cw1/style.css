@@ -14,7 +14,7 @@
 }
 .progress-div {
   width: 20%;
-  height: 102%;
+  height: 100%;
   background-color: orange;
   position: relative;
   animation: progress 5s linear infinite;

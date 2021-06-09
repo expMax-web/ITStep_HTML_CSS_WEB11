@@ -6,79 +6,26 @@
   width: 100%;
   height: 30rem;
   border: 2px solid rgba(172, 170, 170, 0.541);
+  box-sizing: border-box;
 }
 .iframe-css {
-  margin-left: auto;
-  margin-top: auto;
-  width: 300px;
-  height: 300px;
+  width: 256px;
+  height: 256px;
   display: block;
-  margin: auto;
-  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.div-group {
-  display: inline;
+.div-cat {
+  margin: 0rem;
   padding: 0rem;
-  width: 100%;
-  height: 1rem;
-}
-.div1 {
-  background-image: url(./cat_tied_64.png);
-  background-repeat: no-repeat;
-  width: 17%;
-  height: 100px;
   border: 0.5px solid rgba(172, 170, 170, 0.568);
+  box-sizing: border-box;
+  width: calc(100% / 6);
   display: inline;
   float: left;
-  background-position: center;
+  line-height: 100px;
+  text-align: center;
 }
-.div2 {
-  background-image: url(./cat_eyes_64.png);
-  background-repeat: no-repeat;
-  width: 17%;
-  height: 100px;
-  border: 0.5px solid rgba(172, 170, 170, 0.568);
-  display: inline;
-  float: left;
-  background-position: center;
-}
-.div3 {
-  background-image: url(./cat_purr_64.png);
-  background-repeat: no-repeat;
-  width: 17%;
-  height: 100px;
-  border: 0.5px solid rgba(172, 170, 170, 0.568);
-  display: inline;
-  float: left;
-  background-position: center;
-}
-.div4 {
-  background-image: url(./cat_cage_64.png);
-  background-repeat: no-repeat;
-  width: 16.7%;
-  height: 100px;
-  border: 0.5px solid rgba(172, 170, 170, 0.568);
-  display: inline;
-  float: left;
-  background-position: center;
-}
-.div5 {
-  background-image: url(./cat_clean_64.png);
-  background-repeat: no-repeat;
-  width: 16.6%;
-  height: 100px;
-  border: 0.5px solid rgba(172, 170, 170, 0.568);
-  display: inline;
-  float: left;
-  background-position: center;
-}
-.div6 {
-  background-image: url(./cat_box_64.png);
-  background-repeat: no-repeat;
-  width: 15%;
-  height: 100px;
-  border: 0.5px solid rgba(172, 170, 170, 0.568);
-  display: inline;
-  float: left;
-  background-position: center;
+.img-cat {
+  vertical-align: middle;
 }

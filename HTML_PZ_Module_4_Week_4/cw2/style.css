@@ -4,7 +4,7 @@
 }
 .heart1 {
   display: block;
-  margin: 0 auto;
+  margin: 10% auto;
   filter: grayscale(100%);
   width: 100px;
 }
