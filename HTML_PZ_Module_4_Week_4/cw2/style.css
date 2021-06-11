@@ -11,10 +11,10 @@
 
 @keyframes heart {
   from {
-    width: 100px;
+    transform: scale(1);
   }
   to {
-    width: 500px;
+    transform: scale(5);
     filter: grayscale(0%);
   }
 }
