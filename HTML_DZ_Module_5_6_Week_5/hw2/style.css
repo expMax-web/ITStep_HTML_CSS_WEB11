@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  display: inline-block;
+}
+.side-menu {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  height: 100%;
+  width: 70px;
+  background-color: black;
+  overflow: hidden;
+  transition: all 1s linear;
+}
+.side-menu:hover {
+  overflow: visible;
+}
+.menu-div {
+  margin: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 300px;
+  background-color: #808080;
+}
+.menu {
+  padding-left: 0px;
+  list-style-type: none;
+  margin: 0rem;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  left: 0px;
+  line-height: 100px;
+}
+.menu-title {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 0.6rem;
+  padding: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list-title {
+  background-color: #808080;
+  padding-left: 0.8rem;
+  height: 100%;
+}
+.list-menu {
+  background-color: #808080;
+  padding-left: 0.8rem;
+  height: 100%;
+}
+.menu-item-image {
+  width: 3rem;
+  height: 3rem;
+  vertical-align: middle;
+}
+.menu-item {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 0.6rem;
+  padding: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list-menu:hover {
+  background-color: #5d5d5d;
+}
+.menu-link {
+  text-decoration: none;
+}
+.text {
+  padding-left: 100px;
+}
