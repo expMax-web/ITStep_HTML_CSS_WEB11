@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 .main-container {
   margin: 0rem;
   padding: 0rem;
 }
 .block1 {
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 300px;
   display: inline-block;
@@ -10,22 +15,50 @@
   padding: 0rem;
   line-height: 300px;
   vertical-align: middle;
+  transition: all 0.3s linear 0s;
 }
-.text-block {
+.overflow1 {
+  overflow: hidden;
+  position: relative;
+  width: calc(100% / 2);
+  height: 300px;
+}
+.block1-image {
+  height: 300px;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+.img1 {
+  width: 100%;
+  height: 300px;
+}
+.block1:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+.block1:hover .block1-image {
+  animation: scale 1s linear;
+  animation-fill-mode: forwards;
+}
+.text-block1 {
   width: calc(100% / 2);
   height: 100%;
   text-align: center;
   display: inline-block;
-}
-.block1-image {
-  height: 100%;
-  width: calc(100% / 2);
-  background-image: url(./41-600x600.jpg);
-  background-repeat: no-repeat;
-  display: inline-block;
-  float: right;
+  float: left;
 }
 .block2 {
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 300px;
   display: inline-block;
@@ -33,23 +66,38 @@
   padding: 0rem;
   line-height: 300px;
   vertical-align: middle;
+  transition: all 0.3s linear 0s;
+}
+.overflow2 {
+  overflow: hidden;
+  position: relative;
+  width: calc(100% / 2);
+  height: 300px;
+  float: left;
 }
 .block2-image {
-  height: 100%;
+  height: 300px;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+.img2 {
+  width: 100%;
+  height: 300px;
+}
+.block2:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.block2:hover .block2-image {
+  animation: scale 1s linear;
+  animation-fill-mode: forwards;
+}
+.text-block2 {
   width: calc(100% / 2);
-  background-image: url(./825-600x600.jpg);
-  background-repeat: no-repeat;
+  height: 100%;
+  text-align: center;
   display: inline-block;
   float: right;
-}
-@keyframes animated {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.block1-image:hover {
-  background-color: black;
 }
