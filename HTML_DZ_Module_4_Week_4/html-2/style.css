@@ -1,0 +1,27 @@
+.hide-title {
+  position: absolute;
+  z-index: -1;
+  margin-left: 250px;
+}
+.door {
+  width: 300px;
+  height: 200px;
+  background-color: #872d62;
+  border: solid #651142;
+  display: block;
+  transition: all 1s;
+}
+.door-left {
+  float: left;
+  transform-origin: left;
+}
+.door-right {
+  float: left;
+  transform-origin: right;
+}
+.container:hover > .door-left {
+  transform: rotateY(50deg);
+}
+.container:hover > .door-right {
+  transform: rotateY(-50deg);
+}
