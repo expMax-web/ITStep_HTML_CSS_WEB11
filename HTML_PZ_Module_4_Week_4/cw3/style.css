@@ -7,9 +7,13 @@
   align-items: center;
   background-color: rgb(252, 240, 208);
   text-align: center;
-  padding-top: 10%;
-  height: 400px;
+  margin: 0;
+  padding-top: 0;
+  height: 100vh;
   overflow: hidden;
+}
+.title {
+  margin: 0 auto 100px auto;
 }
 @keyframes show-calc {
   from {
@@ -21,8 +25,9 @@
 }
 .calc {
   width: 80px;
-  transform: rotate(-30deg) translateY(20px) translateX(-20px);
+  transform: rotate(-30deg) translateY(600px) translateX(-20px);
   animation: show-calc 2s linear;
+  animation-fill-mode: forwards;
 }
 @keyframes show-book {
   from {
@@ -34,8 +39,9 @@
 }
 .book {
   width: 100px;
-  transform: rotate(-15deg) translateY(-10px);
+  transform: rotate(-15deg) translateY(600px);
   animation: show-book 2s linear 0.5s;
+  animation-fill-mode: forwards;
 }
 @keyframes show-paper {
   from {
@@ -47,8 +53,9 @@
 }
 .paper {
   width: 100px;
-  transform: rotate(15deg) translateY(-10px);
+  transform: rotate(15deg) translateY(600px);
   animation: show-paper 2s linear 1s;
+  animation-fill-mode: forwards;
 }
 @keyframes show-pallete {
   from {
@@ -60,8 +67,9 @@
 }
 .pallete {
   width: 80px;
-  transform: rotate(30deg) translateY(20px) translateX(20px);
+  transform: rotate(30deg) translateY(600px) translateX(20px);
   animation: show-pallete 2s linear 1.5s;
+  animation-fill-mode: forwards;
 }
 @keyframes show-pensil {
   from {
@@ -73,6 +81,7 @@
 }
 .pencil {
   width: 50px;
-  transform: rotate(90deg);
+  transform: rotate(90deg) translateX(600px);
   animation: show-pensil 2s linear 2s;
+  animation-fill-mode: forwards;
 }
