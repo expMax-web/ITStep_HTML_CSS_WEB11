@@ -1,0 +1,16 @@
+.div1 {
+  height: 100px;
+  width: 200px;
+  background-color: orange;
+  float: right;
+}
+.div2 {
+  height: 200px;
+  width: 100px;
+  background-color: orangered;
+}
+.div3 {
+  height: 50px;
+  width: 150px;
+  background-color: paleturquoise;
+}
