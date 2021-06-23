@@ -31,6 +31,7 @@
 }
 .cat1-img-div {
   box-sizing: border-box;
+  font-size: 0;
 }
 .cat1-img {
   width: 100%;
