@@ -7,66 +7,46 @@
   display: inline-block;
   padding: 5vh;
 }
-.text-container1 {
+.text-container {
   width: 60%;
 }
-.text-container2 {
-  width: 60%;
-}
+
 .img-container-cats {
   float: right;
   width: 30%;
   position: absolute;
   top: 33px;
   right: 33px;
+  color: white;
+  text-align: right;
+}
+.cat-inscription {
+  background-color: #37516b;
+  width: 100%;
+  padding: 2% 5vh;
 }
 .cat1-container {
-  display: block;
-  height: 100%;
   border-radius: 10px;
   overflow: hidden;
-  width: 100%;
-  background-color: tomato;
   margin-bottom: 5vh;
 }
 .cat1-img-div {
-  box-sizing: border-box;
   font-size: 0;
 }
 .cat1-img {
   width: 100%;
 }
-.cat1-inscription {
-  background-color: #37516b;
-  width: 100%;
-  text-align: right;
-  color: white;
-  padding: 2% 5vh;
+.cat2-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cat2-img-div {
+  font-size: 0;
 }
 .cat2-img {
   width: 100%;
 }
-.cat2-container {
-  position: relative;
-  border-radius: 20px;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 5vh;
-}
-.cat2-inscription {
-  position: absolute;
-  bottom: -30px;
-  left: 0px;
-  background-color: #37516b;
-  width: 100%;
-  text-align: right;
-  color: white;
-  padding: 2.5vh 5vh;
-}
 @media screen and (min-width: 600px) and (max-width: 800px) {
-  .main-container {
-    background-color: thistle;
-  }
   .img-container-cats {
     display: inline-block;
     width: 100%;
@@ -74,7 +54,6 @@
     margin: 5vh 0;
   }
   .cat1-container {
-    position: static;
     float: left;
     width: 49%;
   }
@@ -82,27 +61,18 @@
     float: right;
     width: 49%;
   }
-  .text-container1 {
-    width: 100%;
-  }
-  .text-container2 {
+  .text-container {
     width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
-  .main-container {
-    background-color: rgb(117, 78, 153);
-  }
   .img-container-cats {
     display: inline-block;
     width: 100%;
     position: unset;
     margin: 5vh 0;
   }
-  .text-container1 {
-    width: 100%;
-  }
-  .text-container2 {
+  .text-container {
     width: 100%;
   }
 }
