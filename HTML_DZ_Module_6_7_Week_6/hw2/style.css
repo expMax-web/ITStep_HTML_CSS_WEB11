@@ -9,6 +9,7 @@
 }
 .text-container {
   width: 60%;
+  font-size: 2vw;
 }
 
 .img-container-cats {
@@ -24,6 +25,7 @@
   background-color: #37516b;
   width: 100%;
   padding: 2% 5vh;
+  font-size: 1.5vw;
 }
 .cat1-container {
   border-radius: 10px;
@@ -61,8 +63,12 @@
     float: right;
     width: 49%;
   }
+  .cat-inscription {
+    font-size: 2.5vw;
+  }
   .text-container {
     width: 100%;
+    font-size: 2.5vw;
   }
 }
 @media screen and (max-width: 600px) {
@@ -72,7 +78,11 @@
     position: unset;
     margin: 5vh 0;
   }
+  .cat-inscription {
+    font-size: 5vw;
+  }
   .text-container {
     width: 100%;
+    font-size: 5vw;
   }
 }
