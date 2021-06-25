@@ -9,16 +9,27 @@
   </head>
   <body>
     <main class="main-container">
-      <div><img src="./loading.png" alt="loading" /></div>
-      <div>
-        <div></div>
-        <h2>Title of video</h2>
-        <span>
-          * Your video is still uploading. Please keep this page open untilit's
-          done.
-        </span>
+      <div class="div-container">
+        <div class="img-div">
+          <img src="./loading.png" alt="loading" class="img-loading" />
+        </div>
+        <div class="loading-div">
+          <div class="loading-progress">
+            <div class="loading-complited"><span>UPLOADING 40%</span></div>
+            <div class="loading-uncomplited">
+              <span>About 23 minutes remaring</span>
+            </div>
+          </div>
+          <br />
+          <h2>Title of video</h2>
+          <br />
+          <span>
+            * Your video is still uploading. Please keep this page open
+            untilit's done.
+          </span>
+        </div>
+        <div class="button-div"><button class="button">DONE</button></div>
       </div>
-      <div><button>DONE</button></div>
     </main>
   </body>
 </html>
