@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.root {
+  font-size: 14px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.header-mail {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 3vw;
+  align-items: center;
+}
+.mail {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.mail-img-div {
+  padding: 1vw;
+}
+.mail-img {
+  width: 50px;
+  height: 50px;
+}
+.user {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+}
+.div-avatar-img {
+  padding: 2vw;
+}
+.avatar-img {
+  width: 50px;
+  height: 50px;
+}
+.header-hr {
+  width: 100%;
+  height: 3px;
+  background-color: grey;
+}
+.content-div {
+  display: flex;
+  padding: 1vh 3vw;
+  height: 100%;
+}
+.mail-nav {
+  width: 15%;
+}
+.li-nav {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+}
+.li-nav:hover {
+  background-color: rgb(240, 209, 209);
+}
+.li-nav::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+.incoming::before {
+  background-image: url("./incom.png");
+}
+.outgoing::before {
+  background-image: url("./outcom.png");
+}
+
+.drafts::before {
+  background-image: url("./draft.png");
+}
+
+.spam::before {
+  background-image: url("./spam.png");
+}
+.li-nav-link {
+  padding: 0 1vw;
+}
+.container-div {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding: 0 2vw;
+}
+.div-message-container {
+  display: flex;
+  width: 100%;
+  height: 9vh;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.star {
+  display: flex;
+  width: 5%;
+}
+.img-star {
+  width: 20px;
+}
+.autor-message {
+  width: 15%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.theme-message {
+  display: flex;
+  justify-content: left;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.message-link {
+  display: flex;
+}
+.theme-message-span {
+  padding: 0 1vh;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.message {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 1vw;
+}
+.attach {
+  display: flex;
+  width: 5%;
+  justify-content: right;
+}
+.attach-img {
+  position: absolute;
+}
+.attach-hide {
+  visibility: hidden;
+}
+.date {
+  display: flex;
+  justify-content: right;
+  width: 5%;
+  flex-wrap: nowrap;
+}
+.test {
+  display: flex;
+  width: 90%;
+}
+@media screen and (max-width: 800px) and (min-width: 550px) {
+  .main-container {
+    background-color: rgb(164, 214, 235);
+  }
+  .mail-img {
+    width: 35px;
+    height: 35px;
+  }
+  .avatar-img {
+    width: 35px;
+    height: 35px;
+  }
+  .content-div {
+    padding: 2vh 2vw;
+  }
+  .mail-nav {
+    width: 25%;
+    font-size: 1.2rem;
+  }
+  .container-div {
+    width: 80%;
+  }
+  .div-message-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  .attach {
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    transform: scale(0.7);
+  }
+  .test {
+    flex-direction: column;
+    width: 75%;
+  }
+  .star {
+    display: flex;
+    width: 10%;
+  }
+  .autor-message {
+    width: 100%;
+  }
+  .theme-message-span {
+    padding: 0;
+    display: flex;
+  }
+  .message {
+    padding: 0;
+  }
+  .theme-message {
+    flex-direction: column;
+  }
+  .dash {
+    display: none;
+  }
+  .date {
+    width: 15%;
+    flex-wrap: nowrap;
+    padding: 0 2vw;
+  }
+}
