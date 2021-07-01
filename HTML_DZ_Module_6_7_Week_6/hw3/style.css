@@ -63,27 +63,12 @@
 .li-nav:hover {
   background-color: rgb(240, 209, 209);
 }
-.li-nav::before {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  content: "";
-}
-.incoming::before {
-  background-image: url("./incom.png");
-}
-.outgoing::before {
-  background-image: url("./outcom.png");
-}
-
-.drafts::before {
-  background-image: url("./draft.png");
-}
-
-.spam::before {
-  background-image: url("./spam.png");
-}
 .li-nav-link {
+  padding: 0 1vw;
+  display: flex;
+  align-items: center;
+}
+.nav-span {
   padding: 0 1vw;
 }
 .container-div {
@@ -100,62 +85,50 @@
   border-bottom: 1px solid grey;
 }
 .star {
-  display: flex;
   width: 5%;
 }
 .img-star {
   width: 20px;
 }
+.div-message-content {
+  display: flex;
+  width: 85%;
+}
 .autor-message {
   width: 15%;
-  display: flex;
-  flex-wrap: nowrap;
+  min-width: 100px;
 }
 .theme-message {
   display: flex;
-  justify-content: left;
   overflow: hidden;
   white-space: nowrap;
-}
-.message-link {
-  display: flex;
+  width: 80%;
 }
 .theme-message-span {
   padding: 0 1vh;
-  display: flex;
-  flex-wrap: nowrap;
 }
 .message {
-  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   padding: 0 1vw;
 }
 .attach {
-  display: flex;
   width: 5%;
-  justify-content: right;
 }
 .attach-img {
-  position: absolute;
+  display: block;
+  margin: 0 auto;
 }
 .attach-hide {
   visibility: hidden;
 }
 .date {
-  display: flex;
-  justify-content: right;
   width: 5%;
-  flex-wrap: nowrap;
+  min-width: 60px;
+  padding-left: 1vw;
 }
-.test {
-  display: flex;
-  width: 90%;
-}
+
 @media screen and (max-width: 800px) and (min-width: 550px) {
-  .main-container {
-    background-color: rgb(164, 214, 235);
-  }
   .mail-img {
     width: 35px;
     height: 35px;
@@ -175,32 +148,30 @@
     width: 80%;
   }
   .div-message-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     position: relative;
   }
   .attach {
     position: absolute;
     right: 100px;
-    top: 5px;
+    top: 20px;
     transform: scale(0.7);
   }
-  .test {
+  .div-message-content {
     flex-direction: column;
     width: 75%;
   }
   .star {
-    display: flex;
+    height: 100%;
     width: 10%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2vh;
   }
   .autor-message {
     width: 100%;
   }
   .theme-message-span {
     padding: 0;
-    display: flex;
   }
   .message {
     padding: 0;
@@ -212,6 +183,82 @@
     display: none;
   }
   .date {
+    min-width: 70px;
+    width: 15%;
+    flex-wrap: nowrap;
+    padding: 0 2vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  .img-navigation {
+    width: 6vh;
+    height: 100%;
+  }
+  .nav-span {
+    padding: 0 10vw;
+  }
+  .ul-nav {
+    width: 100%;
+    overflow: hidden;
+  }
+  .mail-img {
+    width: 35px;
+    height: 35px;
+  }
+  .avatar-img {
+    width: 35px;
+    height: 35px;
+  }
+  .content-div {
+    padding: 2vh 2vw;
+  }
+  .mail-nav {
+    width: 15%;
+    font-size: 1.2rem;
+  }
+  .container-div {
+    width: 80%;
+  }
+  .div-message-container {
+    position: relative;
+  }
+  .attach {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    transform: scale(0.7);
+  }
+  .div-message-content {
+    flex-direction: column;
+    width: 75%;
+    min-width: 200px;
+    position: relative;
+    padding-left: 2vw;
+  }
+  .star {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2vh;
+  }
+  .autor-message {
+    width: 100%;
+  }
+  .theme-message-span {
+    padding: 0;
+  }
+  .message {
+    padding: 0;
+  }
+  .theme-message {
+    flex-direction: column;
+  }
+  .dash {
+    display: none;
+  }
+  .date {
+    min-width: 70px;
     width: 15%;
     flex-wrap: nowrap;
     padding: 0 2vw;
