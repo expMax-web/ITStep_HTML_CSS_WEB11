@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  padding: 10vh 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px 0px;
+  grid-template-areas:
+    "author1 message1 message1 ."
+    ". message2 message2 author11"
+    "author2 message3 message3 ."
+    ". message4 message4 author22"
+    "author3 message5 message5 ."
+    ". message6 message6 author33";
+}
+.message1 {
+  grid-area: message1;
+}
+.message2 {
+  grid-area: message2;
+}
+.message3 {
+  grid-area: message3;
+}
+.message4 {
+  grid-area: message4;
+}
+.author1 {
+  grid-area: author1;
+}
+.author2 {
+  grid-area: author2;
+}
+.message5 {
+  grid-area: message5;
+}
+.message6 {
+  grid-area: message6;
+}
+.author3 {
+  grid-area: author3;
+}
+.author11 {
+  grid-area: author11;
+}
+.author22 {
+  grid-area: author22;
+}
+.author33 {
+  grid-area: author33;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+}
+.author-anie {
+  justify-content: flex-end;
+}
+.message-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+}
+.message-info1 {
+  align-items: flex-end;
+}
+.message-info2 {
+  align-items: flex-start;
+}
+.message-data {
+  color: grey;
+}
+.avatar-img {
+  height: 100%;
+}
+.message-content {
+  padding: 0 3vw;
+  display: flex;
+  align-items: center;
+}
+.message-Anie {
+  background-color: #ffb6c1;
+  border-radius: 20px 20px 20px 0;
+}
+.message-Jack {
+  background-color: #add8e6;
+  border-radius: 20px 20px 0 20px;
+}
