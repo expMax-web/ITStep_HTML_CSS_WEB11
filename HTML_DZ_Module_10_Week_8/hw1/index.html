@@ -7,5 +7,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="main-container">
+      <div class="form-container">
+        <div class="title-div">
+          <h1>CREDIT CARD DETAILS</h1>
+        </div>
+        <form action="" class="form-container-grid">
+          <div class="card-number">
+            <label for="GET-cardnumber" class="label">Card Number</label>
+            <input
+              id="GET-cardnumber"
+              type="text"
+              name="Card Number"
+              title="Please, enter the card number"
+              class="input"
+              placeholder="1234 5678 9012 3456"
+            />
+          </div>
+          <div class="Name-on-card">
+            <label for="GET-nameoncard" class="label">Name On Card</label>
+            <input
+              id="GET-nameoncard"
+              type="text"
+              name="Name On Card"
+              title="Please, enter the name of the cardholder"
+              class="input"
+              placeholder="Name Surname"
+            />
+          </div>
+          <div class="data-cvncode">
+            <div class="Expiry-moth">
+              <label for="GET-expirydate" class="expirydate-label label"
+                >Expiry Date</label
+              >
+              <input
+                id="GET-expirydate"
+                type="text"
+                name="Expiry moth"
+                class="input expirydate-input"
+                placeholder="02"
+              />
+              <input
+                id="GET-expirydate"
+                type="text"
+                name="Expiry year"
+                class="input expirydate-input"
+                placeholder="2017"
+              />
+            </div>
+            <div class="cvn-code">
+              <label for="GET-CVVcode" class="label">CVV / CVN</label>
+              <input
+                id="GET-CVVcode"
+                type="text"
+                name="Expiry moth"
+                class="input"
+                placeholder="***"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="img-div"><img src="./moon_flag.png" class="img" /></div>
+      </div>
+    </main>
+  </body>
 </html>
