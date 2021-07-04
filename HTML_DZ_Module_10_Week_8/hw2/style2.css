@@ -1,0 +1,26 @@
+#input-valid {
+  border-style: inherit;
+  border: 2px solid green;
+  background: url(valid.png) no-repeat center right;
+  background-position: 95% 50%;
+  background-size: 20px;
+}
+#input-valid::placeholder {
+  color: green;
+}
+#input-invalid {
+  border-style: inherit;
+  border: 2px solid red;
+  background: url(invalid.png) no-repeat center right;
+  background-position: 95% 50%;
+  background-size: 20px;
+}
+#input-invalid::placeholder {
+  color: rgb(201, 39, 39);
+}
+.checkbox-checked-span:before {
+  content: attr();
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+}

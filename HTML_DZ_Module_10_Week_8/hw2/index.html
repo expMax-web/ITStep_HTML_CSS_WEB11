@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <form action="#" method="POST">
+        <div class="input-div">
+          <label class="label">Inputs</label>
+          <input
+            id="input"
+            type="text"
+            class="input"
+            placeholder="Enter some text"
+          />
+          <input
+            id="input-valid"
+            type="text"
+            class="input"
+            placeholder="valid text"
+          />
+          <input
+            id="input-invalid"
+            type="text"
+            class="input"
+            placeholder="invalid text"
+          />
+        </div>
+        <div class="checkbox-div">
+          <label class="label">Check boxes</label>
+          <span class="checkbox-span checkbox-checked-span">
+            <input id="checkbox-checked" type="checkbox" />Subscribe
+          </span>
+          <span class="checkbox-span checkbox-unchecked-span">
+            <input id="checkbox-unchecked" type="checkbox" />Subscribe
+          </span>
+        </div>
+        <div class="radio-div">
+          <label for="radio" class="label">Radio buttons</label>
+          <p>
+            Gender:<span class="span-radio">
+              <input id="radio" type="radio" checked />Male
+            </span>
+            <span class="span-radio">
+              <input id="radio" type="radio" />Female
+            </span>
+          </p>
+        </div>
+        <div class="button-div">
+          <label class="label">Buttons</label>
+          <button id="button" class="button">Active</button>
+          <button id="button" class="button">Hover</button>
+          <button id="button" class="button">Danger</button>
+          <button id="button" class="button">Hover</button>
+          <button id="button" class="button">Disabled</button>
+          <button id="button" class="button-circle">+</button>
+          <button id="button" class="button-circle">-</button>
+        </div>
+        <div class="text-area-div">
+          <label for="text-area" class="label">Text area</label>
+          <textarea name="text-area" id="text-area" cols="30" rows="10">
+Enter some text...</textarea
+          >
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
