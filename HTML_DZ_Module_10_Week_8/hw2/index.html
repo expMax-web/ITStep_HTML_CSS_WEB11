@@ -12,7 +12,7 @@
     <main class="main-container">
       <form action="#" method="POST">
         <div class="input-div">
-          <label class="label">Inputs</label>
+          <h2 class="label">Inputs</h2>
           <input
             id="input"
             type="text"
@@ -33,40 +33,59 @@
           />
         </div>
         <div class="checkbox-div">
-          <label class="label">Check boxes</label>
-          <span class="checkbox-span checkbox-checked-span">
-            <input id="checkbox-checked" type="checkbox" />Subscribe
-          </span>
-          <span class="checkbox-span checkbox-unchecked-span">
-            <input id="checkbox-unchecked" type="checkbox" />Subscribe
-          </span>
+          <h2 class="label">Check boxes</h2>
+          <label class="container-label"
+            >Subscribe
+            <input type="checkbox" checked="checked" />
+            <span class="checkmark checkmark-on"
+              ><span class="checkmark-inside checkmark-inside-on"></span
+            ></span>
+          </label>
+          <label class="container-label"
+            >Subscribe
+            <input type="checkbox" checked="checked" />
+            <span class="checkmark checkmark-off"
+              ><span class="checkmark-inside checkmark-inside-off"></span
+            ></span>
+          </label>
         </div>
         <div class="radio-div">
-          <label for="radio" class="label">Radio buttons</label>
-          <p>
-            Gender:<span class="span-radio">
-              <input id="radio" type="radio" checked />Male
-            </span>
-            <span class="span-radio">
-              <input id="radio" type="radio" />Female
-            </span>
-          </p>
+          <h2 for="radio-button" class="label">Radio buttons</h2>
+          <span class="span">Gender:</span>
+          <label class="radio-container"
+            >Male
+            <input type="radio" checked />
+            <span class="radio"></span>
+          </label>
+          <label class="radio-container"
+            >Female
+            <input type="radio" />
+            <span class="radio"></span>
+          </label>
         </div>
         <div class="button-div">
-          <label class="label">Buttons</label>
-          <button id="button" class="button">Active</button>
-          <button id="button" class="button">Hover</button>
-          <button id="button" class="button">Danger</button>
-          <button id="button" class="button">Hover</button>
-          <button id="button" class="button">Disabled</button>
-          <button id="button" class="button-circle">+</button>
-          <button id="button" class="button-circle">-</button>
+          <h2 class="label">Buttons</h2>
+          <button id="button" class="button button-active">Active</button>
+          <button id="button" class="button button-hover">Hover</button>
+          <button class="button button-danger">Danger</button>
+          <button class="button button-Hover-danger">Hover</button>
+          <button class="button button-disabled">Disabled</button>
+          <button class="button-circle button-plus">
+            <img src="./plus.png" class="button-img" />
+          </button>
+          <button class="button-circle button-minus">
+            <img src="./minus.png" class="button-img" />
+          </button>
         </div>
         <div class="text-area-div">
-          <label for="text-area" class="label">Text area</label>
-          <textarea name="text-area" id="text-area" cols="30" rows="10">
-Enter some text...</textarea
-          >
+          <h2 for="text-area" class="label">Text area</h2>
+          <textarea
+            name="text-area"
+            id="text-area"
+            cols="30"
+            rows="10"
+            placeholder="Enter some text..."
+          ></textarea>
         </div>
       </form>
     </main>
