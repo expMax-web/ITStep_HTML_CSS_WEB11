@@ -1,0 +1,7 @@
+#text-area {
+  width: 70%;
+}
+#text-area::placeholder {
+  padding: 2% 5%;
+  color: #b6b6b6;
+}

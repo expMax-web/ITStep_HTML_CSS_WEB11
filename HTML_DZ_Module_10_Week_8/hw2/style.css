@@ -1,3 +1,8 @@
+@import url(style-input-text.css);
+@import url(style-input-check-box.css);
+@import url(style-radio-button-.css);
+@import url(style-button.css);
+@import url(style-text-area.css);
 * {
   box-sizing: border-box;
   margin: 0;

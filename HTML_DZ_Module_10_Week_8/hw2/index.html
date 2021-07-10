@@ -18,35 +18,15 @@
             type="text"
             class="input"
             placeholder="Enter some text"
-          />
-          <input
-            id="input-valid"
-            type="text"
-            class="input"
-            placeholder="valid text"
-          />
-          <input
-            id="input-invalid"
-            type="text"
-            class="input"
-            placeholder="invalid text"
+            pattern="[A-Z]"
           />
         </div>
         <div class="checkbox-div">
           <h2 class="label">Check boxes</h2>
-          <label class="container-label"
-            >Subscribe
-            <input type="checkbox" checked="checked" />
-            <span class="checkmark checkmark-on"
-              ><span class="checkmark-inside checkmark-inside-on"></span
-            ></span>
-          </label>
-          <label class="container-label"
-            >Subscribe
-            <input type="checkbox" checked="checked" />
-            <span class="checkmark checkmark-off"
-              ><span class="checkmark-inside checkmark-inside-off"></span
-            ></span>
+          <label class="container-label">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            <span class="subscribe-span">Subscribe</span>
           </label>
         </div>
         <div class="radio-div">
@@ -54,21 +34,19 @@
           <span class="span">Gender:</span>
           <label class="radio-container"
             >Male
-            <input type="radio" checked />
+            <input type="radio" name="radio" checked />
             <span class="radio"></span>
           </label>
           <label class="radio-container"
             >Female
-            <input type="radio" />
+            <input type="radio" name="radio" />
             <span class="radio"></span>
           </label>
         </div>
         <div class="button-div">
           <h2 class="label">Buttons</h2>
-          <button id="button" class="button button-active">Active</button>
-          <button id="button" class="button button-hover">Hover</button>
+          <button id="button" class="button button-green">Active</button>
           <button class="button button-danger">Danger</button>
-          <button class="button button-Hover-danger">Hover</button>
           <button class="button button-disabled">Disabled</button>
           <button class="button-circle button-plus">
             <img src="./plus.png" class="button-img" />
