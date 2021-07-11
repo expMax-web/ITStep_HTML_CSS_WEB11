@@ -7,5 +7,64 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="main-container">
+      <header class="header">
+        <h1 class="h1-title-site">Flights - Search List</h1>
+        <nav>
+          <a href="#" class="nav-link">Home</a>/<a href="#" class="nav-link"
+            >Flights Search List</a
+          >
+        </nav>
+      </header>
+      <div class="content-box">
+        <div class="radio-button">
+          <span><input name="trip" type="radio" />One Way</span>
+          <span><input name="trip" type="radio" />Round Trip</span>
+        </div>
+        <div class="search-div">
+          <input type="text" class="input" />
+          <input type="text" class="input" />
+          <input type="text" class="input" />
+          <input type="text" class="input" />
+          <select name="class" class="input">
+            <option value="econom">Econome</option>
+            <option value="comfort">Comfort</option>
+            <option value="business">Business</option>
+          </select>
+          <input type="submit" value="Search" class="input" />
+        </div>
+        <div class=""></div>
+        <div class="filter-div">
+          <h2>Filter</h2>
+          <label for="stops">
+            No. of Stops
+            <span><input type="checkbox" />Non Stop</span>
+            <span><input type="checkbox" />1 Stop</span>
+            <span><input type="checkbox" />2+ Stops</span>
+          </label>
+          <label for="price">
+            Price
+            <div class="min-price">
+              <span>Min:</span> <span><input type="text" /> $ -</span>
+            </div>
+            <div class="max-price">
+              <span>Max:</span> <span><input type="text" /> $</span>
+            </div>
+          </label>
+          <fieldset>
+            <legend>Airlines</legend>
+            <label><input type="checkbox" />Asiana Airlines</label>
+            <label><input type="checkbox" />American Airlines</label>
+            <label><input type="checkbox" />Air Canada</label>
+            <label><input type="checkbox" />Air India</label>
+            <label><input type="checkbox" />Jet Airways</label>
+            <label><input type="checkbox" />Spicejet</label>
+            <label><input type="checkbox" />IndiGo</label>
+            <label><input type="checkbox" />Multiple Airlines</label>
+          </fieldset>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
