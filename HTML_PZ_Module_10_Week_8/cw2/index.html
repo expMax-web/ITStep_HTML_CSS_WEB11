@@ -8,25 +8,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="main-container"></main>
-    <form action="" class="form-container">
-      <h1>Contact form</h1>
-      <p>Please fill your information and we'll be sending your order.</p>
-      <div class="container">
-        <div class="name"></div>
-        <div class="email"></div>
-        <div class="phone"></div>
-        <div class="message-sub"></div>
-        <div class="message"></div>
-        <div class="last-name"></div>
-        <div class="first-name"></div>
-        <div class="email-input"></div>
-        <div class="phone1"></div>
-        <div class="phone2"></div>
-        <div class="phone3"></div>
-        <div class="other"></div>
-        <div class="message-area"></div>
+    <main class="main-container"><form action="" class="form-container">
+      <h1 class="form-title">Contact form</h1>
+      <p class="define">Please fill your information and we'll be sending your order.</p>
+      <div class="grid-container">
+        <label for="name" class="name label">Your name</label>
+        <input type="text" name="name" class="last-name input" placeholder="last name"></input>
+        <input type="text" name="name" class="first-name input" placeholder="first name"></input>
+        <label for="email" class="email label">Your email</label>
+        <input type="email" class="email-input input" placeholder="your_mail@mail.com"></input>
+        <label for="phone"  class="phone label">Phone*</label>
+        <input type="text" name="phone" class="phone1 input" placeholder="000"></input>
+        <input type="text" name="phone" class="phone2 input" placeholder="000"></input>
+        <input type="text" name="phone" class="phone3 input" placeholder="000"></input>
+        <label  for="message-sub" class="message-sub label">Message subject*</label>
+        <select name="message-sub" class="other input">
+          <option value="other">other</option>
+          <option value="other1">other1</option>
+          <option value="other2">other2</option>
+        </select>
+        <label for="message-area"  class="message">Message*</label>
+        <textarea type="text" class="message-area"></textarea>
       </div>
+      <hr class="hr-form">
+      <label class="submit-label"><input type="submit" value="SUBMIT FORM" class="submit">
+      </label>
     </form>
+  </main>
   </body>
 </html>
