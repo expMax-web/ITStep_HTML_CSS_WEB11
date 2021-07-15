@@ -1,0 +1,16 @@
+.svg {
+  width: 30px;
+  filter: invert(100%);
+}
+.arrow {
+  position: relative;
+}
+.arrow-up {
+  width: 0;
+  height: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 1px solid black;
+  right: 0;
+  position: absolute;
+}
