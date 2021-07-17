@@ -4,13 +4,41 @@
 }
 .arrow {
   position: relative;
+  border: 1px solid rgb(189, 189, 189);
 }
-.arrow-up {
-  width: 0;
-  height: 0px;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 1px solid black;
-  right: 0;
+.arrow::before {
+  content: "";
   position: absolute;
+  left: 100%;
+  top: -2px;
+  border: 18px solid transparent;
+  border-left: 20px solid rgb(189, 189, 189);
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  left: 98%;
+  top: -2px;
+  border: 18px solid transparent;
+  border-left: 20px solid white;
+}
+.h3-title-relative {
+  position: relative;
+}
+.absolute-ul-div {
+  position: absolute;
+  right: 1%;
+  bottom: -30px;
+}
+.ul-list {
+  display: flex;
+  flex-direction: column;
+}
+.li-item {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-svg {
+  filter: invert(100%);
+  transform: scale(0.9);
 }

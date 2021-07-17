@@ -19,7 +19,10 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-0">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ps-4 pe-3"
+      style="background-color: #1b5589"
+    >
       <div class="container-fluid p-2">
         <a class="navbar-brand" href="#"
           ><img src="./chalkboard-teacher-solid.svg" alt="" class="svg"
@@ -38,23 +41,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active link-light" aria-current="page" href="#"
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="home.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="#">Homework</a>
+              <a class="nav-link link-light" href="homework.html">Homework</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Settings</a>
+              <a class="nav-link" href="settings.html">Settings</a>
             </li>
           </ul>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="settings.html">
             <img
               src="./av_64.png"
               alt=""
-              width="30"
-              height="24"
+              width="50"
+              height="50"
               class="d-inline-block align-text-top"
             />
           </a>
@@ -62,16 +68,26 @@
       </div>
     </nav>
     <p class="h1 text-center m-4">Dakota Greenaway (ABC_123)</p>
+    <hr />
     <div class="container-fluid d-flex p-2 bd-highlight">
       <div class="container-fluid">
         <p class="h2 text-center m-4">News</p>
-        <div class="card" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-3 p-3">
-              <img src="./bank.png" alt="bank" />
+        <div class="card position-relative">
+          <small
+            class="position-absolute text-muted"
+            style="top: 10px; right: 20px"
+            >1 days ago</small
+          >
+          <div class="row g-0 p-2">
+            <div class="col-md-3">
+              <img
+                src="./bank.png"
+                alt="bank"
+                class="rounded mx-auto d-block"
+              />
             </div>
             <div class="col-md-9">
-              <div class="card-body">
+              <div class="card-body p-3 pt-0">
                 <div
                   class="
                     d-flex
@@ -82,9 +98,6 @@
                   "
                 >
                   <h5 class="card-title">Weekends</h5>
-                  <p class="card-text">
-                    <small class="text-muted">1 days ago</small>
-                  </p>
                 </div>
                 <p class="card-text">
                   Dear students, kindly be informed that there will be no
@@ -94,14 +107,16 @@
             </div>
           </div>
         </div>
-        <div class="card" style="max-width: 540px">
+        <div class="card">
+          <small
+            class="position-absolute text-muted"
+            style="top: 10px; right: 20px"
+            >3 days ago</small
+          >
           <div class="row g-0">
-            <div class="card-body">
+            <div class="card-body p-3">
               <div class="d-flex p-2 bd-highlight justify-content-between">
                 <h5 class="card-title">Programming consultations</h5>
-                <p class="card-text">
-                  <small class="text-muted">3 days ago</small>
-                </p>
               </div>
               <p class="card-text">
                 This Sunday, March 26 at 1:00 pm the Academy will be holding
@@ -110,18 +125,24 @@
             </div>
           </div>
         </div>
-        <div class="card p-3" style="max-width: 540px">
+        <div class="card p-3">
           <div class="row g-0">
             <div class="col-md-3">
-              <img src="./bank.png" alt="bank" />
+              <img
+                src="./bank.png"
+                alt="bank"
+                class="rounded mx-auto d-block"
+              />
             </div>
             <div class="col-md-9">
-              <div class="card-body">
+              <small
+                class="position-absolute text-muted"
+                style="top: 10px; right: 20px"
+                >20.03.2019</small
+              >
+              <div class="card-body p-3 pt-0">
                 <div class="d-flex p-2 bd-highlight justify-content-between">
                   <h5 class="card-title">Meeting with ABC Bank</h5>
-                  <p class="card-text">
-                    <small class="text-muted">20.03.2019</small>
-                  </p>
                 </div>
                 <p class="card-text">
                   On Monday, March 27 at 7:00 pm, we invite you to a busines
@@ -145,12 +166,17 @@
             <div
               class="col-sm col-5 d-flex justify-content-end align-items-center"
             >
-              <span class="border p-1 arrow"
-                >Class attended
-                <div class="arrow-up"></div
-              ></span>
+              <span class="p-1 arrow">Class attended</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -172,7 +198,15 @@
             >
               <span class="border p-1">19.04.2019</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -193,7 +227,15 @@
             >
               <span class="border p-1">Class attended</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -214,7 +256,15 @@
             >
               <span class="border p-1">17.04.2019</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -235,7 +285,15 @@
             >
               <span class="border p-1">Class attended</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -256,7 +314,15 @@
             >
               <span class="border p-1">15.04.2019</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -277,7 +343,15 @@
             >
               <span class="border p-1">Class attended</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -298,7 +372,15 @@
             >
               <span class="border p-1">13.04.2019</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
@@ -319,7 +401,15 @@
             >
               <span class="border p-1">Class attended</span>
             </div>
-            <div class="col-sm d-flex col-2 align-items-center">
+            <div
+              class="
+                col-sm
+                d-flex
+                col-2
+                align-items-center
+                justify-content-center
+              "
+            >
               <p class="font-weight-bold"><strong>+1</strong></p>
               <img src="./badge.png" alt="" />
             </div>
