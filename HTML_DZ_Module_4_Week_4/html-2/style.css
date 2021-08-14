@@ -20,8 +20,8 @@
   transform-origin: right;
 }
 .container:hover > .door-left {
-  transform: rotateY(50deg);
+  transform: perspective(1500px) rotateY(45deg);
 }
 .container:hover > .door-right {
-  transform: rotateY(-50deg);
+  transform: perspective(1500px) rotateY(-45deg);
 }
