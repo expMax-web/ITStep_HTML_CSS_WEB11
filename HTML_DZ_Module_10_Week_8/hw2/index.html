@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <form action="#" method="POST">
+        <div class="input-div">
+          <h2 class="label">Inputs</h2>
+          <input
+            id="input"
+            type="text"
+            class="input"
+            placeholder="Enter some text"
+            pattern="[A-Z]"
+          />
+        </div>
+        <div class="checkbox-div">
+          <h2 class="label">Check boxes</h2>
+          <label class="container-label">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            <span class="subscribe-span">Subscribe</span>
+          </label>
+        </div>
+        <div class="radio-div">
+          <h2 for="radio-button" class="label">Radio buttons</h2>
+          <span class="span">Gender:</span>
+          <label class="radio-container"
+            >Male
+            <input type="radio" name="radio" checked />
+            <span class="radio"></span>
+          </label>
+          <label class="radio-container"
+            >Female
+            <input type="radio" name="radio" />
+            <span class="radio"></span>
+          </label>
+        </div>
+        <div class="button-div">
+          <h2 class="label">Buttons</h2>
+          <button id="button" class="button button-green">Active</button>
+          <button class="button button-danger">Danger</button>
+          <button class="button button-disabled">Disabled</button>
+          <button class="button-circle button-plus">
+            <img src="./plus.png" class="button-img" />
+          </button>
+          <button class="button-circle button-minus">
+            <img src="./minus.png" class="button-img" />
+          </button>
+        </div>
+        <div class="text-area-div">
+          <h2 for="text-area" class="label">Text area</h2>
+          <textarea
+            name="text-area"
+            id="text-area"
+            cols="30"
+            rows="10"
+            placeholder="Enter some text..."
+          ></textarea>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
