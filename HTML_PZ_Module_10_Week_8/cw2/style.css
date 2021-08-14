@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.main-container {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.picsum.photos/id/1033/1920/1080.jpg?hmac=PFeRtI5OXUqS7PbTPluUptCJV9_ZF4s_kN3P6teC8dI);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container {
+  width: 80%;
+  max-width: 1600px;
+  min-width: 600px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.8);
+  padding: 3%;
+  color: rgb(223, 221, 221);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 0.8fr 1.2fr 1fr 1fr 1fr;
+  grid-template-rows: 0.625fr 0.625fr 0.625fr 0.625fr 2.5fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "name name first-name first-name first-name first-name first-name last-name last-name last-name last-name last-name"
+    "email email email-input email-input email-input email-input email-input email-input email-input email-input email-input email-input"
+    "phone phone phone1 phone1 phone1 phone2 phone2 phone2 phone3 phone3 phone3 phone3"
+    "message-sub message-sub other other other other other other other other other other"
+    "message message message-area message-area message-area message-area message-area message-area message-area message-area message-area message-area";
+  height: 80%;
+  margin-bottom: 2%;
+}
+
+.name {
+  grid-area: name;
+}
+
+.email {
+  grid-area: email;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.message-sub {
+  grid-area: message-sub;
+}
+
+.message {
+  grid-area: message;
+}
+
+.last-name {
+  grid-area: last-name;
+}
+
+.first-name {
+  grid-area: first-name;
+}
+
+.email-input {
+  grid-area: email-input;
+}
+
+.phone1 {
+  grid-area: phone1;
+}
+
+.phone2 {
+  grid-area: phone2;
+}
+
+.phone3 {
+  grid-area: phone3;
+}
+
+.other {
+  grid-area: other;
+}
+
+.message-area {
+  grid-area: message-area;
+  padding-left: 15px;
+}
+.form-title {
+  margin-bottom: 3%;
+}
+.define {
+  margin-bottom: 4%;
+}
+.label {
+  display: flex;
+  align-items: center;
+}
+.submit-label {
+  display: flex;
+  margin-top: 3%;
+  justify-content: flex-end;
+}
+.submit {
+  width: 83%;
+  height: 40px;
+  color: white;
+  background-color: rgb(255, 255, 255, 0);
+  border: 1px solid white;
+  cursor: pointer;
+}
+.input {
+  padding-left: 15px;
+}

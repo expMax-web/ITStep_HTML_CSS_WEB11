@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 240, 208);
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.title {
+  margin: 0 auto 100px auto;
+}
+@keyframes show-calc {
+  from {
+    transform: rotate(-30deg) translateY(600px) translateX(-20px);
+  }
+  to {
+    transform: rotate(-30deg) translateY(20px) translateX(-20px);
+  }
+}
+.calc {
+  width: 80px;
+  transform: rotate(-30deg) translateY(600px) translateX(-20px);
+  animation: show-calc 2s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes show-book {
+  from {
+    transform: rotate(-15deg) translateY(600px);
+  }
+  to {
+    transform: rotate(-15deg) translateY(-10px);
+  }
+}
+.book {
+  width: 100px;
+  transform: rotate(-15deg) translateY(600px);
+  animation: show-book 2s linear 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes show-paper {
+  from {
+    transform: rotate(15deg) translateY(600px);
+  }
+  to {
+    transform: rotate(15deg) translateY(-10px);
+  }
+}
+.paper {
+  width: 100px;
+  transform: rotate(15deg) translateY(600px);
+  animation: show-paper 2s linear 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes show-pallete {
+  from {
+    transform: rotate(30deg) translateY(600px) translateX(20px);
+  }
+  to {
+    transform: rotate(30deg) translateY(20px) translateX(20px);
+  }
+}
+.pallete {
+  width: 80px;
+  transform: rotate(30deg) translateY(600px) translateX(20px);
+  animation: show-pallete 2s linear 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes show-pensil {
+  from {
+    transform: rotate(90deg) translateX(600px);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+.pencil {
+  width: 50px;
+  transform: rotate(90deg) translateX(600px);
+  animation: show-pensil 2s linear 2s;
+  animation-fill-mode: forwards;
+}

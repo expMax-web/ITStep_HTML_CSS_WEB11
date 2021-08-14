@@ -18,7 +18,11 @@
   transition: all 1s linear;
 }
 .side-menu:hover {
+<<<<<<< HEAD
   width: 300px;
+=======
+  overflow: visible;
+>>>>>>> html-practice
 }
 .menu-div {
   margin: 0;

@@ -1,0 +1,19 @@
+.div {
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  margin: 2rem;
+}
+.parenth {
+  background-color: blue;
+  padding: 20px;
+  position: relative;
+}
+.div-123 {
+  height: 150px;
+  width: 200px;
+  background-color: rgb(33, 146, 57);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
