@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+}
+.header {
+  padding: 1em;
+}
+
+.logo {
+  width: 64px;
+}
+.nav-list {
+  list-style-type: none;
+  padding: 1em;
+  margin: 0;
+}
+.nav-list-item {
+  display: inline;
+}
+.nav {
+  padding: 1em;
+}
+.main {
+  padding: 1em;
+}
+.footer {
+  padding: 1em;
+}

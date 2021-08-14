@@ -13,63 +13,83 @@
   padding-top: 10vh;
 }
 .nav-link {
-  color: rgb(202, 202, 202);
+  color: rgb(131, 131, 131);
   text-decoration: none;
   font-weight: 100;
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 .H1title-content {
   margin-top: 5vh;
   font-size: 2.8em;
 }
-.information-author-table {
+.information-author-div {
   margin-top: 5vh;
   font-size: 0.7em;
-}
-.avatar-td {
-  width: 120px;
+  display: flex;
 }
 .avatar {
   width: 80px;
+  margin-right: 3vh;
 }
-
-.information-author-table td,
-th {
-  width: 110px;
-  height: 30px;
-  text-align: left;
+.info-author-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
-.information-author-table th {
-  vertical-align: top;
+.info-author-link {
+  text-decoration: none;
+  color: inherit;
 }
-.information-author-table td {
-  vertical-align: bottom;
-  color: rgb(202, 202, 202);
-  font-weight: 100;
+.info-author-li {
+  width: 12vh;
+}
+.thead-span {
+  color: rgb(131, 131, 131);
+}
+.info-author-li:hover .thead-span {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 @media screen and (max-width: 600px) {
   .main-container {
-    padding-left: 5vh;
-    padding-top: 5vh;
+    padding: 5vh;
+    background-color: khaki;
   }
   .H1title-content {
     margin-top: 5vh;
-    font-size: 1.5em;
+    font-size: 5.5vw;
   }
   .avatar {
-    width: 50px;
+    width: 20vw;
+    height: 100%;
   }
-  .information-author-table td,
-  th {
-    width: 110px;
-    height: 30px;
-    text-align: left;
+  .nav-link {
+    font-size: 5.5vw;
   }
-  .information-author-table th {
-    vertical-align: top;
+  .info-author-ul {
+    font-size: 3vw;
+    width: 80%;
+    flex-flow: row wrap;
   }
-  .information-author-table td {
-    vertical-align: bottom;
-    color: rgb(202, 202, 202);
-    font-weight: 100;
+  .info-author-li {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 1vh;
+  }
+  .item1 {
+    order: 2;
+  }
+  .item2 {
+    order: 3;
+  }
+  .item3 {
+    order: 4;
+  }
+  .item4 {
+    order: 1;
   }
 }

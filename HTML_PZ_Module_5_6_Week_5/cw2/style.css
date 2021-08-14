@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.ul-navigation {
+  list-style-type: none;
+  margin: 0;
+  font-size: 0;
+  margin-bottom: 2%;
+}
+.nav-list-title {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid rgb(2, 104, 2);
+  margin: 0;
+  font-size: initial;
+  font-size: 25px;
+}
+.nav-list-title:hover {
+  background-color: rgb(4, 85, 4);
+}
+.nav-list-title-link {
+  color: white;
+  text-decoration: none;
+}
+.categories {
+  position: relative;
+}
+.categories:hover .ul-Categories {
+  visibility: visible;
+}
+
+.ul-Categories {
+  list-style-type: none;
+  margin: 0;
+  visibility: hidden;
+  font-size: 0;
+  position: absolute;
+}
+.Wooman {
+  position: relative;
+}
+.ul-wooman {
+  top: 0;
+  left: 100%;
+  position: absolute;
+  list-style: none;
+  visibility: hidden;
+  font-size: 0;
+}
+.Wooman:hover .ul-wooman {
+  visibility: visible;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 5vh 5vw;
+  width: 100%;
+  background-color: #add8e6;
+}
+.column1 {
+  display: flex;
+  width: calc(90% / 3);
+  flex-direction: column;
+}
+.column2 {
+  display: flex;
+  width: calc(90% / 3);
+  flex-direction: column;
+}
+.column3 {
+  display: flex;
+  width: calc(90% / 3);
+  flex-direction: column;
+}
+.div-card {
+  width: 100%;
+  background-color: #f4f4f4;
+  margin: 2vh 0;
+}
+.div-image {
+  width: 100%;
+}
+.img {
+  width: 100%;
+}
+.div-content {
+  padding: 2vw;
+}
+.h2-title {
+  margin-bottom: 2vh;
+}

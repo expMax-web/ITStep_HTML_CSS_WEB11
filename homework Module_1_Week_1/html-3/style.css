@@ -20,17 +20,11 @@
   color: #ad272bc9;
   background-color: #dfdede;
 }
-ul.tags {
-  display: inline-flex;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-ul.tags li {
-  list-style: none;
+
+.tags {
   background-color: rgba(226, 226, 226, 0.945);
   color: #56a8b1;
-  margin-right: 3px;
+>>>>>>> html-practice
 }
 .main-code {
   background-color: #dfdede;
@@ -45,11 +39,4 @@ ul.tags li {
 }
 .dfn {
   font-weight: 500;
-}
-.h2-title {
-  display: inline-block;
-  margin: 0;
-}
-.tags-span {
-  margin: 0em;
 }

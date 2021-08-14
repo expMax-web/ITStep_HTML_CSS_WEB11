@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.main-container {
+  background-color: rgb(226, 226, 226);
+  height: max-content;
+}
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: #0f4371;
+  color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+.h1-title-site {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.content-box {
+  padding: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.radio-button {
+  margin-bottom: 1%;
+  width: 100%;
+}
+.search-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: none;
+}
+.button-submit {
+  background-color: #0f4371;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.input {
+  width: calc(95% / 6);
+  height: 40px;
+  padding-left: 10px;
+}
+.input-loc {
+  background-image: url(./location.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  background-size: 25px;
+}
+.input-date {
+  background-image: url(./calendar.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  background-size: 25px;
+}
+.input-filters {
+  margin-right: 10px;
+}
+.filters {
+  border: none;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5% 2% 2% 3%;
+  margin-top: 2%;
+  border: 2px solid rgb(214, 214, 214);
+  border-radius: 5px;
+}
+.filters-fs-title {
+  top: 8%;
+  left: 8%;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+.filters-title {
+  font-size: 1rem;
+  margin-bottom: 2%;
+  color: #0f4371;
+}
+.stops {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.price-title {
+  width: 100%;
+}
+.min-price {
+  width: calc(98% / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+.max-price {
+  width: calc(98% / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+.price-input {
+  width: 50%;
+}
+.price-value-span {
+  width: 100%;
+}
+.airlines-div {
+  display: flex;
+  flex-direction: column;
+}
+.table-div {
+  width: 68%;
+  margin-top: 2%;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-title {
+  width: 100%;
+  background-color: white;
+  line-height: 100px;
+  vertical-align: middle;
+  border: 2px solid rgb(214, 214, 214);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.table th {
+  color: #0f4371;
+  height: 40px;
+}
+.name-airlines {
+  width: 100%;
+}
+.table tbody tr {
+  height: 60px;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+.table td {
+  background-color: white;
+  text-align: center;
+}
+.table td span:nth-child(2) {
+  color: grey;
+  display: block;
+  font-size: 0.7rem;
+}
+.link {
+  text-decoration: none;
+  color: #0f4371;
+  display: block;
+  font-size: 0.8rem;
+}
+.button {
+  background-color: #0f4371;
+  color: white;
+  padding: 5% 15%;
+  border-radius: 5px;
+  border: none;
+}

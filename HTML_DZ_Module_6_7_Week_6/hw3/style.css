@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.root {
+  font-size: 14px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.header-mail {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 3vw;
+  align-items: center;
+}
+.mail {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.mail-img-div {
+  padding: 1vw;
+}
+.mail-img {
+  width: 50px;
+  height: 50px;
+}
+.user {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+}
+.div-avatar-img {
+  padding: 2vw;
+}
+.avatar-img {
+  width: 50px;
+  height: 50px;
+}
+.header-hr {
+  width: 100%;
+  height: 3px;
+  background-color: grey;
+}
+.content-div {
+  display: flex;
+  padding: 1vh 3vw;
+  height: 100%;
+}
+.mail-nav {
+  width: 15%;
+}
+.li-nav {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+}
+.li-nav:hover {
+  background-color: rgb(240, 209, 209);
+}
+.li-nav-link {
+  padding: 0 1vw;
+  display: flex;
+  align-items: center;
+}
+.nav-span {
+  padding: 0 1vw;
+}
+.container-div {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding: 0 2vw;
+}
+.div-message-container {
+  display: flex;
+  width: 100%;
+  height: 9vh;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.star {
+  width: 5%;
+}
+.img-star {
+  width: 20px;
+}
+.div-message-content {
+  display: flex;
+  width: 85%;
+}
+.autor-message {
+  width: 15%;
+  min-width: 100px;
+}
+.theme-message {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 80%;
+}
+.theme-message-span {
+  padding: 0 1vh;
+}
+.message {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 1vw;
+}
+.attach {
+  width: 5%;
+}
+.attach-img {
+  display: block;
+  margin: 0 auto;
+}
+.attach-hide {
+  visibility: hidden;
+}
+.date {
+  width: 5%;
+  min-width: 60px;
+  padding-left: 1vw;
+}
+
+@media screen and (max-width: 800px) and (min-width: 550px) {
+  .mail-img {
+    width: 35px;
+    height: 35px;
+  }
+  .avatar-img {
+    width: 35px;
+    height: 35px;
+  }
+  .content-div {
+    padding: 2vh 2vw;
+  }
+  .mail-nav {
+    width: 25%;
+    font-size: 1.2rem;
+  }
+  .container-div {
+    width: 80%;
+  }
+  .div-message-container {
+    position: relative;
+  }
+  .attach {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transform: scale(0.7);
+  }
+  .div-message-content {
+    flex-direction: column;
+    width: 75%;
+  }
+  .star {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2vh;
+  }
+  .autor-message {
+    width: 100%;
+  }
+  .theme-message-span {
+    padding: 0;
+  }
+  .message {
+    padding: 0;
+  }
+  .theme-message {
+    flex-direction: column;
+  }
+  .dash {
+    display: none;
+  }
+  .date {
+    min-width: 70px;
+    width: 15%;
+    flex-wrap: nowrap;
+    padding: 0 2vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  .img-navigation {
+    width: 6vh;
+    height: 100%;
+  }
+  .nav-span {
+    padding: 0 10vw;
+  }
+  .ul-nav {
+    width: 100%;
+    overflow: hidden;
+  }
+  .mail-img {
+    width: 35px;
+    height: 35px;
+  }
+  .avatar-img {
+    width: 35px;
+    height: 35px;
+  }
+  .content-div {
+    padding: 2vh 2vw;
+  }
+  .mail-nav {
+    width: 15%;
+    font-size: 1.2rem;
+  }
+  .container-div {
+    width: 80%;
+  }
+  .div-message-container {
+    position: relative;
+  }
+  .attach {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    transform: scale(0.7);
+  }
+  .div-message-content {
+    flex-direction: column;
+    width: 75%;
+    min-width: 200px;
+    position: relative;
+    padding-left: 2vw;
+  }
+  .star {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2vh;
+  }
+  .autor-message {
+    width: 100%;
+  }
+  .theme-message-span {
+    padding: 0;
+  }
+  .message {
+    padding: 0;
+  }
+  .theme-message {
+    flex-direction: column;
+  }
+  .dash {
+    display: none;
+  }
+  .date {
+    min-width: 70px;
+    width: 15%;
+    flex-wrap: nowrap;
+    padding: 0 2vw;
+  }
+}

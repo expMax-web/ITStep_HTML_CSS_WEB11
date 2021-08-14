@@ -1,0 +1,8 @@
+/**Изучаем фильтры для картинок сайт https://developer.mozilla.org/ru/docs/Web/CSS/filter**/
+.image {
+  transition: 0.5s ease;
+}
+.image:hover {
+  filter: blur(5px);
+  transition: 0.5s ease;
+}
