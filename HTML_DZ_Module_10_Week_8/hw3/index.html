@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <form action="#" class="form">
+        <fieldset class="Registration-form-fieldset">
+          <legend class="legend">Registration form</legend>
+          <label for="input" class="label">
+            <div class="input-div">
+              <img src="username.png" alt="" class="img-input" />
+              <input
+                name="name"
+                type="text"
+                placeholder="Username"
+                class="input username-input"
+                required
+              />
+            </div>
+            <div class="input-div">
+              <img src="email.png" alt="" class="img-input" />
+              <input
+                name="email"
+                type="email"
+                placeholder="Email address"
+                class="input email-input"
+                required
+              />
+            </div>
+            <div class="input-div input-div-pw">
+              <img src="pswd.png" alt="" class="img-input img-pw" />
+              <div class="password-container">
+                <input
+                  name="password"
+                  type="password"
+                  placeholder="Password"
+                  class="input password-input"
+                  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                  required
+                />
+                <input
+                  name="password"
+                  type="password"
+                  placeholder="Confirm password"
+                  class="input confirm-pw-input"
+                  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                  required
+                />
+              </div>
+            </div>
+          </label>
+        </fieldset>
+        <fieldset class="Personal-details-fieldset">
+          <legend class="legend">Personal details</legend>
+          <label for="input" class="label personal-details-label">
+            <input
+              name="Fname"
+              type="text"
+              placeholder="First name"
+              class="input first-name-input"
+              required
+            />
+            <input
+              name="Lname"
+              type="text"
+              placeholder="Last name"
+              class="input last-name-input"
+              required
+            />
+            <select name="gender" class="input select-gender">
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </select>
+            <input
+              name="birthday"
+              type="text"
+              placeholder="mm/dd/yyyy"
+              pattern="(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d"
+              class="input birthday-input"
+              required
+            />
+          </label>
+        </fieldset>
+        <span class="i-agree-span"
+          ><input type="checkbox" class="checkbox" />I want to receive news and
+          special offers</span
+        >
+        <span class="i-agree-span"
+          ><input type="checkbox" class="checkbox" />I agree with the Terms and
+          Conditions</span
+        >
+        <hr class="hr-form" />
+        <div class="div-button">
+          <button type="submit" class="submit-button">SUBMIT</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

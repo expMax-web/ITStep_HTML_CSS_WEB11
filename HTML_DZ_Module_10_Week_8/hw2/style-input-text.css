@@ -1,0 +1,19 @@
+#input {
+  outline: none;
+}
+#input:valid {
+  border-style: inherit;
+  border: 2px solid green;
+  background: url(valid.png) no-repeat center right;
+  background-position: 95% 50%;
+  background-size: 20px;
+  border-radius: 10px;
+}
+#input:invalid {
+  border-style: inherit;
+  border: 2px solid red;
+  border-radius: 10px;
+  background: url(invalid.png) no-repeat center right;
+  background-position: 95% 50%;
+  background-size: 20px;
+}

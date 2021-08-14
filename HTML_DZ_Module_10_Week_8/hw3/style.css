@@ -1,0 +1,241 @@
+html {
+  font-size: 20px;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  padding: 5%;
+}
+.form {
+  box-shadow: 0px 0px 8px 9px rgba(34, 60, 80, 0.2);
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  padding-left: 3%;
+  height: 5vh;
+  font-size: 0.8rem;
+  position: relative;
+}
+.label {
+  width: 100%;
+}
+.Registration-form-fieldset {
+  border: none;
+  padding: 2% 1% 1% 1%;
+  width: 50%;
+  margin-bottom: 5%;
+}
+.input-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.img-input {
+  width: 25px;
+  height: 100%;
+}
+.username-input {
+  width: 90%;
+}
+.email-input {
+  width: 90%;
+}
+.password-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.password-input {
+  width: calc(98% / 2);
+}
+.confirm-pw-input {
+  width: calc(98% / 2);
+}
+
+.Personal-details-fieldset {
+  border: none;
+  padding: 2% 1% 1% 1%;
+  width: 49%;
+}
+.personal-details-label {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.first-name-input {
+  width: calc(95% / 2);
+}
+.last-name-input {
+  width: calc(95% / 2);
+}
+.select-gender {
+  width: calc(95% / 2);
+}
+.birthday-input {
+  width: calc(95% / 2);
+}
+.checkbox {
+  margin-right: 20px;
+}
+.i-agree-span {
+  width: 100%;
+  padding: 1%;
+}
+.hr-form {
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  position: absolute;
+  left: 0;
+  bottom: 25%;
+  height: 1px;
+  border: none;
+}
+.div-button {
+  margin-top: 10%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.submit-button {
+  padding: 1% 6%;
+  background-color: #008b8b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .form {
+    flex-direction: column;
+  }
+  .Registration-form-fieldset {
+    width: 100%;
+  }
+  .username-input {
+    width: 93%;
+  }
+  .email-input {
+    width: 93%;
+  }
+  .password-container {
+    width: 93%;
+  }
+  .input-div {
+    margin-bottom: 5%;
+  }
+  .Personal-details-fieldset {
+    width: 100%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+  }
+  .first-name-input {
+    width: calc(98% / 2);
+    margin-top: 5%;
+  }
+  .last-name-input {
+    width: calc(98% / 2);
+    margin-top: 5%;
+  }
+  .select-gender {
+    width: calc(98% / 2);
+    margin-top: 5%;
+  }
+  .birthday-input {
+    width: calc(98% / 2);
+    margin-top: 5%;
+  }
+  .hr-form {
+    bottom: 20%;
+  }
+  .div-button {
+    margin-top: 20%;
+  }
+  .submit-button {
+    padding: 3% 10%;
+  }
+}
+@media screen and (max-width: 600px) {
+  legend {
+    font-size: 1.5rem;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .Registration-form-fieldset {
+    width: 100%;
+  }
+  .input-div {
+    margin-bottom: 5%;
+  }
+  .username-input {
+    width: 93%;
+  }
+  .email-input {
+    width: 93%;
+  }
+  .password-container {
+    width: 93%;
+    flex-wrap: wrap;
+  }
+  .password-input {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .confirm-pw-input {
+    width: 100%;
+  }
+  .input-div-pw {
+    align-items: flex-start;
+  }
+  .img-pw {
+    padding-top: 1vh;
+  }
+  .Personal-details-fieldset {
+    width: 100%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+  }
+  .first-name-input {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .last-name-input {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .select-gender {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .birthday-input {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .i-agree-span {
+    width: 100%;
+    padding: 1%;
+  }
+  .hr-form {
+    bottom: 12%;
+  }
+  .div-button {
+    margin-top: 20%;
+  }
+  .submit-button {
+    padding: 3% 18%;
+  }
+}
