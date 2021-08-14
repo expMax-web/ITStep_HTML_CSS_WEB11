@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 14px;
+}
+.main-container {
+  padding: 10%;
+}
+.form-container {
+  background-color: #9fcdcd;
+  padding: 20% 10% 10% 10%;
+  position: relative;
+  border-radius: 20px;
+}
+.title-div {
+  background-color: #da6322;
+  color: white;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 15%;
+  left: -5%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  padding-left: 12vw;
+  z
+}
+.form-container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "card-number"
+    "Name-on-card"
+    "data-cvncode";
+}
+
+.card-number {
+  grid-area: card-number;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.Name-on-card {
+  grid-area: Name-on-card;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.data-cvncode {
+  width: 70%;
+  display: flex;
+  grid-area: data-cvncode;
+}
+.Expiry-moth {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: space-between;
+  padding-right: 2vw;
+}
+.cvn-code {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.input {
+  height: 50px;
+  background-color: #a9d2d2;
+  border-style: inherit;
+  border-bottom: 1px solid black;
+  padding-left: 1vw;
+  font-size: 1.4rem;
+}
+.input::placeholder {
+  color: #567d80;
+}
+.expirydate-label {
+  display: block;
+  width: 100%;
+}
+.expirydate-input {
+  width: 45%;
+}
+.label {
+  margin-bottom: 2vh;
+  color: #567d80;
+}
+.img-div {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  overflow: hidden;
+  width: 30%;
+  height: 55%;
+  border-radius: 20px;
+}
+.img {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30vw;
+  height: 110%;
+}

@@ -1,0 +1,85 @@
+@import url(style-input-text.css);
+@import url(style-input-check-box.css);
+@import url(style-radio-button-.css);
+@import url(style-button.css);
+@import url(style-text-area.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 14px;
+}
+.main-container {
+  padding: 10%;
+}
+.label {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2vh;
+}
+.input-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin: 5vh 0;
+}
+.input {
+  width: calc(98% / 3);
+  height: 5vh;
+  padding-left: 2vw;
+  border-radius: 10px;
+}
+.checkbox-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 5vh 0;
+}
+.checkbox-span {
+  margin-right: 0 2vw;
+  font-size: 1.5rem;
+}
+.span {
+  padding-right: 1%;
+}
+.radio-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 5vh 0;
+  font-size: 1.5rem;
+}
+.span-radio {
+  margin: 0 1vw;
+}
+.button-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 5vh 0;
+  justify-content: space-around;
+}
+.button {
+  padding: 1vh 2vw;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+}
+.button-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+.text-area-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.button-img {
+  width: 10px;
+}

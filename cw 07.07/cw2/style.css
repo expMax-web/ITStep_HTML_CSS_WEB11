@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.main-container {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://picsum.photos/1920/1080);
+}
+.form-container {
+  width: 80%;
+  display: flex;
+  background-color: teal;
+  box-shadow: 0px 0px 11px 10px rgba(34, 60, 80, 0.2);
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.8fr 1.2fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 3.4fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "name name first-name first-name first-name first-name first-name last-name last-name last-name last-name last-name"
+    "email email email-input email-input email-input email-input email-input email-input email-input email-input email-input email-input"
+    "phone phone phone1 phone1 phone1 phone2 phone2 phone2 phone3 phone3 phone3 phone3"
+    "message-sub message-sub other other other other other other other other other other"
+    "message message message-area message-area message-area message-area message-area message-area message-area message-area message-area message-area";
+}
+
+.name {
+  grid-area: name;
+}
+
+.email {
+  grid-area: email;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.message-sub {
+  grid-area: message-sub;
+}
+
+.message {
+  grid-area: message;
+}
+
+.last-name {
+  grid-area: last-name;
+}
+
+.first-name {
+  grid-area: first-name;
+}
+
+.email-input {
+  grid-area: email-input;
+}
+
+.phone1 {
+  grid-area: phone1;
+}
+
+.phone2 {
+  grid-area: phone2;
+}
+
+.phone3 {
+  grid-area: phone3;
+}
+
+.other {
+  grid-area: other;
+}
+
+.message-area {
+  grid-area: message-area;
+}

@@ -1,0 +1,47 @@
+/** CSS for button**/
+.button-green {
+  background-color: #41ad49;
+  color: white;
+}
+.button-green:hover {
+  background-color: #2c7731;
+  color: white;
+}
+.button-green:active {
+  background-color: #64e26d;
+}
+.button-danger {
+  background-color: #e44061;
+  color: white;
+}
+.button-danger:hover {
+  background-color: #97293f;
+  color: white;
+}
+.button-danger:active {
+  background-color: #e6667f;
+}
+.button-disabled {
+  background-color: #808080;
+  color: white;
+}
+.button-plus {
+  background-color: #41ad49;
+  color: white;
+}
+.button-plus:hover {
+  background-color: #2d7932;
+}
+.button-plus:active {
+  background-color: #7be782;
+}
+.button-minus {
+  background-color: #e44061;
+  color: white;
+}
+.button-minus:hover {
+  background-color: #992139;
+}
+.button-minus:active {
+  background-color: #f36d88;
+}
