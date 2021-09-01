@@ -46,7 +46,7 @@ console.log(checkStudent(array));
 */
 
 //Задание 1 
-
+/*
 let rectangle = 
 {
 LTpointx: 2,
@@ -102,4 +102,5 @@ function changeWidthHeight (obj, a, b) {
 
 changeWidth(rectangle, 2);
 
-console.log(rectangle);
+console.log(rectangle);*/
+
