@@ -1,0 +1,41 @@
+/*html,
+
+.container {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  padding: 50px;
+}
+.title {
+  display: block;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+#randomNumber {
+  display: block;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#createNumButton {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 50px;
+}
+*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 400px;
+  font-size: 32px;
+}
