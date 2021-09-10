@@ -37,3 +37,36 @@ body {
   font-size: 20px;
   background-color: white;
 }
+
+.container {
+  width: 1200px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+.color-item {
+  width: 50px;
+  height: 50px;
+}
+.addButton {
+  width: 100%;
+}
+
+#block-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.palette-container {
+  background-color: white;
+}
+.palette-item {
+  width: 30px;
+  height: 30px;
+}
+
+.main-container {
+  background-color: bisque;
+}
