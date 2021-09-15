@@ -1,0 +1,29 @@
+.error {
+  color: red;
+}
+.hidden {
+  display: none;
+}
+.loginForm {
+  margin: 0 auto;
+  width: 500px;
+  padding: 2%;
+  background-color: rgb(236, 212, 212);
+}
+
+.label {
+  font-weight: bold;
+}
+.input {
+  width: 100%;
+  margin: 10px 0;
+  height: 20px;
+}
+.submitButton {
+  width: 100%;
+}
+.link {
+  display: block;
+  text-align: right;
+  margin-top: 20px;
+}
